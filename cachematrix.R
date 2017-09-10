@@ -14,8 +14,6 @@ list(set = set, get = get,
 }
 
 
-## Write a short comment describing this function
-
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
   if(!is.null(m)) {
